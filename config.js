@@ -14,7 +14,7 @@ global.location="Delhi,India."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://atharvairon4041:atharvairon404@cluster0.jfl3wbd.mongodb.net/"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || ""
+global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://atharvairon4041:atharvairon404@cluster0.jfl3wbd.mongodb.net/"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Kolkata";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "BAJRANG-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "TEAM IROTECH",
+  author : process.env.PACK_AUTHER|| "ᴮᴬᴶᴿᴬᴺᴳ-ᴹᴰ",
+  packname: process.env.PACK_NAME || "ᴮᴬᴶᴿᴬᴺᴳ-ᴹᴰ",
+  botname : process.env.BOT_NAME  || "ᴮᴬᴶᴿᴬᴺᴳ-ᴹᴰ",
+  ownername:process.env.OWNER_NAME|| "IROTECH",
 
 
   errorChat : process.env.ERROR_CHAT || "",
